@@ -71,8 +71,6 @@ public class hangman {
 		String realWord= getWord[0];
 		String gameWord= realWord.replace(" ", "");
 		String hint=getWord[1];
-		System.out.println(word);
-		System.out.println(gameWord);
 		System.out.println(hint);
 		ArrayList<String> chosen = new ArrayList<String>();
 		ArrayList<String> wrong = new ArrayList<String>();
